@@ -1,4 +1,4 @@
-Ideabox::Application.routes.draw do
+Coolaby::Application.routes.draw do
   resources :projects
 
   resources :users

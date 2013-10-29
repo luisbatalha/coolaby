@@ -1,5 +1,10 @@
 class Project < ActiveRecord::Base
-  belongs_to :user
+
+  attr_accessible :title, :abstract
+  
   validates_presence_of :abstract, :title
   validates_uniqueness_of :title
+
+  belongs_to :user
+
 end

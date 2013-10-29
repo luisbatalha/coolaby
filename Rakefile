@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ideabox::Application.load_tasks
+Coolaby::Application.load_tasks
