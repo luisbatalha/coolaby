@@ -35,6 +35,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Haml instead of HTML
+gem 'haml-rails'
+
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
